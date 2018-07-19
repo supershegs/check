@@ -1,5 +1,5 @@
 import request from 'request';
-import { closeSever } from '../server/server';
+import { closeSever } from '../server';
 
 const baseUrl = 'http://localhost:3000/';
 describe('Api server', () => {
